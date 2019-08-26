@@ -2,7 +2,7 @@
 
 
 x, y, z = 4, 3.0, "7"
-print("The main values and types are:")
+print("\nThe main values and types are:")
 print(x)
 print(type(x))
 print(y)
