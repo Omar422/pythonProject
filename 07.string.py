@@ -10,7 +10,7 @@ String\""" \n
         """
 print(string)
 
-arrStr = """(Hello from the 7th lesson...!)
+arrStr = """( Hello from the 7th lesson...! )
 The previous sentence is simply string, first character has index No. 0
 To print the word (string), get the characters from position 19 to 25 [20:26]
 """
