@@ -1,10 +1,13 @@
 # 13. List In python
+
 """
 # Lists can store different type of variables, other list
 # to access the list items we use referring to the index number.
 # to print the whole list we use for loop
-
 """
+
+
+
 a = [1, "a", [1,"b"], 10.5]
 print("This list has different type, to print the 3rd item a[2] => " + str(a[2]))
 print("The items in a are: ")
