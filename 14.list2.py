@@ -11,8 +11,8 @@
 a = ["A", 4, "C", 2.5]
 print("To print a part of list we use index, for ex: [1:3] index:3 won't be printting=> "+str(a[1:3]))
 
-if "B" in a:
-    print("Search for "B" in list a: Exist")
+if "A" in a:
+    print("Search for \"A\" in list a: Exist")
 listp = ["python"] * 3
 print(listp)
 lists = a + listp
