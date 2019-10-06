@@ -6,8 +6,10 @@ Create a class (Library) has two attributes (shelf,book)
 
 Create a class (section_science) which is a chlid class from the Library:
     it has one attribute (name = Physics books)
+
+Change the book value to 20 and the shelf value to 4 in the chlid class
 """
-print("Week 7 Challenge - First&Second Part Of The Question")
+print("Week 7 Challenge ")
 
 class Library:
 
@@ -20,6 +22,8 @@ class section_science(Library):
     def __init__(self,book,shelf,name):
         super().__init__(book, shelf)
         self.myname = name
+        self.mybooks = 20
+        self.myshelves = 4
 
     def printInfo(self):
         print("the number of books in the Library:",self.mybooks)
