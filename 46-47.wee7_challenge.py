@@ -22,8 +22,6 @@ class section_science(Library):
     def __init__(self,book,shelf,name):
         super().__init__(book, shelf)
         self.myname = name
-        self.mybooks = 20
-        self.myshelves = 4
 
     def printInfo(self):
         print("the number of books in the Library:",self.mybooks)
@@ -31,4 +29,6 @@ class section_science(Library):
         print(self.myname)
 
 l1 = section_science(300, 45, "Physics books")
+l1.mybooks = 20
+l1.myshelves = 4
 l1.printInfo()
