@@ -18,7 +18,7 @@ str = "This Is His Issue"
 match = myRegEx.sub('\s', '_', str, 2)
 
 if (match):
-    print(match)
+    print('\nmatch')
     print(myRegEx.search('is',str))
     print(myRegEx.search(r"\bH+",str).span())
     print(myRegEx.search(r"\bH",str).string)
