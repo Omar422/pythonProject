@@ -19,5 +19,5 @@
 import camelcase as cc
 
 c = cc.CamelCase()
-str = "this method capitalizes the first letter of each word"
-print(c.hump(str))
+text = "this method capitalizes the first letter of each word"
+print(c.hump(text))
