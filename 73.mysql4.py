@@ -27,7 +27,7 @@ mycursor = con.cursor()
 q = "UPDATE categories SET name = 'Python' WHERE name = 'Python3'"
 mycursor.execute(q)
 con.commit()
-print(mycursor.rowcount,"Record(s) Updated")
+print("\n",mycursor.rowcount,"Record(s) Updated")
 
 print('\nAll Records:')
 mycursor.execute("SELECT * FROM categories")
