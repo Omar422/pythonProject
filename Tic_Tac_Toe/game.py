@@ -68,7 +68,7 @@ def game():
         global player1
         global player2
 
-        # ro play first even if player1 won the last game
+        # to play first even if player1 won the last game
         if len(player1)==0:
             Active=1
         # if a player clicked the button change it text 'call play()', state & Active value, also add the position of it in the players array
